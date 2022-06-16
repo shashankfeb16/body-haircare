@@ -1,0 +1,78 @@
+*{
+    aspect-ratio: auto;
+}
+.nav{
+    width: 100%;
+    height:100px;
+    /* border: 1px solid; */
+    position: fixed;
+    overflow: hidden;
+    background-color:#FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 12;
+}
+.nav>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    aspect-ratio: auto;
+
+}
+.nav>div>div:nth-child(1){
+    /* border: 1px solid blue; */
+    margin-top: 29px;
+    font-size: 25px;
+    margin-left: -25px;
+    cursor: pointer;
+    aspect-ratio: auto;
+
+}
+.nav>div>div:nth-child(2){
+    display: flex;
+    /* border: 1px solid; */
+    width: 40%;
+    justify-content: space-between;
+    aspect-ratio: auto;
+
+}
+.nav>div>div:nth-child(2)>div:nth-child(1)>img{
+    height: 60px;
+    margin-top: 15px;
+    aspect-ratio: auto;
+
+}
+.nav>div>div:nth-child(2)>div:nth-child(2){
+    margin-top: 29px;
+    aspect-ratio: auto;
+
+}
+.nav>div>div:nth-child(2)>div:nth-child(2)>input{
+    width: 240px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid grey; 
+    margin-top: 9px;
+    cursor: pointer;
+    aspect-ratio: auto;
+
+}
+.nav>div>div:nth-child(2)>div:nth-child(3){
+    margin-top: 29px;
+    font-size: 25px;
+    cursor: pointer;
+    aspect-ratio: auto;
+
+
+}
+.nav>div>div:nth-child(2)>div:nth-child(4){
+    margin-top: 29px;
+    font-size: 25px;
+    cursor: pointer;
+    aspect-ratio: auto;
+
+}
+
+

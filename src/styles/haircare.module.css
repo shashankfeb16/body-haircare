@@ -1,0 +1,14 @@
+.slider{
+    height: 400px;
+    width: 300px;
+    background-color: #c2d87a;
+   border-radius: 10px;
+    text-align: center;
+    margin-left: 40px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+  justify-content: center;
+    gap: 40px;
+}

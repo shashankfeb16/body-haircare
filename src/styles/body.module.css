@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.combos{
+    display:flex;
+    justify-content: space-around;
+    margin-right: 500px;
+}
+.slider{
+    height: 400px;
+    width: 300px;
+    background-color: #c2d87a;
+   border-radius: 10px;
+    text-align: center;
+    margin-left: 40px;
+}
+.stk{
+    display: flex;
+    gap: 30px;
+    margin-left: 40px;
+}
