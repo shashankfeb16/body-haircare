@@ -20,7 +20,7 @@ function App() {
       </CartProvider>
       {/* <Navbar1></Navbar1> */}
       {/* <Body /> */}
-      {/* <CartProvider><Haircare haircare={haircare}></Haircare></CartProvider> */}
+      <CartProvider><Haircare haircare={haircare}></Haircare></CartProvider>
       <Routes>
         <Route path='/body' element={<Body></Body>}></Route>
         <Route path='/haircare' element={<CartProvider><Haircare haircare={haircare}></Haircare></CartProvider>}></Route>

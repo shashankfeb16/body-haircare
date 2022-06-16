@@ -44,7 +44,7 @@ const Navbar = () => {
 
 
   return (
-    <div>
+    <div style={{zIndex:"12"}}>
       <Swiper 
         spaceBetween={30}
         centeredSlides={true}
