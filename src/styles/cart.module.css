@@ -8,19 +8,43 @@
     display: flex;
     gap: 10px;
     /* margin-left: 10px; */
-    /* margin-bottom: 50px;
-    margin-top: 40px; */
+    /* margin-bottom: 50px;*/
+    margin-top: 30px; 
+
 }
 .textbtn{
     height: 150px;
     width: 500px;
     text-align: center;
 }
-
+h5{
+    width: 150px;
+}
 .image{
-   height: 100px;
-   width: 500px;
+   height: 150px;
+   width: 550px;
 }
 .btn{
    flex-direction: column-reverse;
+}
+.cart>div:nth-child(3){
+    /* border: 1px solid red; */
+    width: 150px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    height: 42px;
+    margin-top: 50px;
+}
+.cart>div:nth-child(4){
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    /* margin-left: 30px; */
+}
+.cart>div:nth-child(4)>h5{
+    margin-left: 30px;
+}
+.cart>div:nth-child(4)>Button{
+    margin-left: 20px;
+    margin-top: 40px
 }

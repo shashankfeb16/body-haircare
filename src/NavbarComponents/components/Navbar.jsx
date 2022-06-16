@@ -143,6 +143,7 @@ const Navbar = () => {
         placement='right'
         onClose={onClose}
         finalFocusRef={btnRef}
+        size="lg"
       >
         <DrawerOverlay />
         <DrawerContent>

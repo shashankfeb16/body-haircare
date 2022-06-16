@@ -1,3 +1,4 @@
+import { Button } from '@chakra-ui/react';
 import React, { useState } from 'react'
 import { useCart } from "react-use-cart";
 import styles from "../styles/cart.module.css"
@@ -33,15 +34,15 @@ const Cart = () => {
                         </div>
                         <div className={styles.textbtn}>
                             <h5>{item.name}</h5>
-                            <button onClick={()=>{removeItem(item.id);handleRefresh()}}>Remove</button>
                         </div>
-                        <div>
-                            <button onClick={()=>updateItemQuantity(item.id,item.quantity+1)}>+</button>
+                        <div className="count-btn">
+                            <Button onClick={()=>updateItemQuantity(item.id,item.quantity+1)}>+</Button>
                             <button>{item.quantity}</button>
-                            <button onClick={()=>updateItemQuantity(item.id,item.quantity-1)}>-</button>
+                            <Button onClick={()=>updateItemQuantity(item.id,item.quantity-1)}>-</Button>
                         </div>
                         <div>
-                            <h5> {(item.quantity)*(item.price)}</h5>
+                            <h5>₹{(item.quantity)*(item.price)}</h5>
+                            <Button onClick={()=>{removeItem(item.id);handleRefresh()}}>Remove</Button>
                         </div>
                     </div>
                 })}
